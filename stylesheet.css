@@ -105,27 +105,53 @@ name {
   font-size: 32px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
 span.highlight {
   background-color: #ffffd0;
+}
+
+.main-table {
+  width:100%;
+  max-width:800px;
+  border:0px;
+  border-spacing:0px;
+  border-collapse:separate;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.cv-table {
+  width:100%;
+  border:0px;
+  border-spacing:0px;
+  border-collapse:separate;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.left-column {
+  padding:20px;
+  width:25%;
+  vertical-align:middle
+}
+
+.right-column {
+  padding:20px;
+  width:75%;
+  vertical-align:middle
+}
+
+.profile-photo:hover {
+  content: url('./images/ahmet_bahaddin_ersoz.jpg');
+}
+
+.crack:hover {
+  content: url('./images/crack2.jpg');
+}
+
+.lean:hover {
+  content: url('./images/lean2.jpg');
+}
+
+.ann:hover {
+  content: url('./images/ann2.jpg');
 }
